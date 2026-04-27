@@ -2,7 +2,7 @@
 title: Docker
 description: Getting started with the Docker image
 published: true
-date: 2024-09-18T01:09:44.271Z
+date: 2026-04-27T08:25:29.643Z
 tags: setup, docker
 editor: markdown
 dateCreated: 2019-02-15T04:23:08.720Z
@@ -159,6 +159,7 @@ services:
     image: ghcr.io/requarks/wiki:2
     depends_on:
       - db
+    init: true
     environment:
       DB_TYPE: postgres
       DB_HOST: db
