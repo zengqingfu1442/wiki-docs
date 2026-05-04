@@ -2,7 +2,7 @@
 title: Requirements
 description: Prerequisites to install Wiki.js
 published: true
-date: 2026-01-03T08:36:54.717Z
+date: 2026-05-04T10:54:21.206Z
 tags: setup
 editor: markdown
 dateCreated: 2019-02-15T04:21:32.940Z
@@ -42,7 +42,7 @@ For best performance, features and future compatibility, it's highly recommended
 - ![](https://static.requarks.io/logo/postgresql.svg =24x){.mr-2} PostgreSQL **9.5 or later**
 {.grid-list}
 
-> It's recommended you use the latest version of PostgreSQL when possible.
+> It's recommended you use the **latest** version of PostgreSQL when possible.
 {.is-success}
 
 > Note that in order to use the PostgreSQL search module, the `pg_trgm` extension must be available on the host. The extension is part of the `postgresql-contrib` package in most Linux distributions. The docker PostgreSQL image already includes the extension.
@@ -71,11 +71,7 @@ The [Node.js](https://nodejs.org/) runtime is required. The following versions a
 
 - **Node.js 24**: version **24.0** or later. *(since v2.5.302)*{.text-caption}
 - **Node.js 22**: version **22.0** or later. *(since v2.5.302)*{.text-caption}
-- **Node.js 20**: version **20.0** or later. *(since v2.5.300)*{.text-caption}
 {.grid-list}
-
-> Odd-numbered versions (e.g. `23x`, `21.x`, `19.x`) are **NOT** officially supported.
-{.is-danger}
 
 ### **Using Docker?** :whale:
 
